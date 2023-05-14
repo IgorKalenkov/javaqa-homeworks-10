@@ -51,4 +51,6 @@ public class ManagerPosterTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
+
 }
