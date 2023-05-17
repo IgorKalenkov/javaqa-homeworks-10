@@ -13,6 +13,7 @@ public class ManagerPoster {
     }
 
     public Poster[] movies = new Poster[0];
+
     public void addMovie(Poster movie) {
         Poster[] newMovies = new Poster[movies.length + 1];
         for (int i = 0; i < movies.length; i++) {
